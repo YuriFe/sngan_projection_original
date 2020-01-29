@@ -1,8 +1,8 @@
 Installing the environment (numpy need python 3.5):
 ```
 conda create -n python35_clean python=3.5
-pip3 install matplotlib tensorflow-gpu==1.13.1 chainer==3.3.0 numpy==1.11.1 cython==0.27.2 cupy==2.0.0 scipy==0.19.0 pillow==4.3.0 pyyaml==3.12 h5py==2.7.1
-pip3 install pandas
+pip install matplotlib tensorflow-gpu==1.13.1 chainer==3.3.0 numpy==1.11.1 cython==0.27.2 cupy==2.0.0 scipy==0.19.0 pillow==4.3.0 pyyaml==3.12 h5py==2.7.1 
+pip install pandas
 ```
 
 Download inception V3 model:
