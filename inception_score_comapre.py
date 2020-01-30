@@ -199,7 +199,6 @@ if __name__=='__main__':
                 inception_m, inception_s, fid = calc_scores(imgs)
                 scores['Iteration'].append(iter)
                 scores['Inception_mean'].append(inception_m)
-                scores['Inception_mean'].append(inception_m)
                 scores['Inception std'].append(inception_s)
                 scores['FID'].append(fid)
         scores = pd.DataFrame(scores)
